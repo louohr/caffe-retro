@@ -28,4 +28,12 @@ body {
     text-decoration: none;
     margin: 0 20px;
     margin-right: 20px;
+    text-align: center;
+}
+
+h1 {
+    font-size: 2rem;
+    color: #8e0001;
+    display: flex;
+    justify-content: center;
 }
