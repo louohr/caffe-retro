@@ -12,7 +12,7 @@ body {
     background-color: #8e0001;
 }
 
-/* first page */
+/* first section */
 .hero-container {
     position: relative;
     text-align: center;
@@ -91,7 +91,7 @@ body {
     width: 24%;
 }
 
-/* second page */
+/* second section */
 .hero-container-two {
     position: relative;
     text-align: center;
@@ -170,7 +170,7 @@ body {
     width: 24%;
 }
 
-/* third page */
+/* third section */
 .hero-container-three {
     position: relative;
     text-align: center;
@@ -239,12 +239,12 @@ body {
     font-size: 2rem;
 }
 
-.flavor {
+.menu-detail-one {
     text-align: left;
     width: 75%;
 }
 
-.price {
+.menu-detail-two {
     text-align: right;
     width: 24%;
 }
