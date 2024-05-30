@@ -7,6 +7,11 @@ body {
     width: 100%;
 }
 
+.divider {
+    height: 20px;
+    background-color: #8e0001;
+}
+
 /* first page */
 .hero-container {
     position: relative;
