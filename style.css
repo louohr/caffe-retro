@@ -1,11 +1,138 @@
 body {
     margin: 0;
     padding: 0;
-    font-family: Arial, Helvetica, sans-serif;
 }
 
 .hero {
     width: 100%;
+}
+
+/* first page */
+.hero-container {
+    position: relative;
+    text-align: center;
+}
+
+.hero-container h1 {
+    position: absolute;
+    top: 10%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    margin: 0;
+    color: #8e0001;
+    font-family: "Spirax", sans-serif;
+    font-size: 7rem;
+}
+
+.hero-container .red-square {
+    position: absolute;
+    top: 14%;
+    left: 43%;
+    transform: translate(-50%, -50%);
+    margin: 0;
+    padding: 20px;
+    width: 800px;
+    color: white;
+    background-color: #8e0001;
+    opacity: .8;
+    font-family: "Poiret One", sans-serif;
+    font-size: 2rem;
+    text-align: center;
+}
+
+.hero-container .red-square-two {
+    position: absolute;
+    top: 17%;
+    left: 57%;
+    transform: translate(-50%, -50%);
+    margin: 0;
+    padding: 20px;
+    width: 800px;
+    color: white;
+    background-color: #8e0001;
+    opacity: .8;
+    font-family: "Poiret One", sans-serif;
+    font-size: 2rem;
+    text-align: center;
+}
+
+.hero-container .menu {
+    position: absolute;
+    top: 22%;
+    left: 47%;
+    transform: translate(-50%, -50%);
+    width: 800px;
+    padding: 20px;
+    font-family: 'Poiret One', sans-serif;
+    background-color: black;
+    color: white;
+    opacity: .8;
+}
+
+.item p {
+    display: inline-block;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    font-size: 2rem;
+}
+
+.flavor {
+    text-align: left;
+    width: 75%;
+}
+
+.price {
+    text-align: right;
+    width: 24%;
+}
+
+/* second page */
+.hero-container-two {
+    position: relative;
+    text-align: center;
+}
+
+.hero-container-two h1 {
+    position: absolute;
+    top: 34%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    margin: 0;
+    color: #8e0001;
+    font-family: "Spirax", sans-serif;
+    font-size: 7rem;
+}
+
+.hero-container-two .red-square {
+    position: absolute;
+    top: 47%;
+    left: 43%;
+    transform: translate(-50%, -50%);
+    margin: 0;
+    padding: 20px;
+    width: 900px;
+    color: white;
+    background-color: #8e0001;
+    opacity: .8;
+    font-family: "Poiret One", sans-serif;
+    font-size: 2rem;
+    text-align: center;
+}
+
+.hero-container-two .red-square-two {
+    position: absolute;
+    top: 55%;
+    left: 57%;
+    transform: translate(-50%, -50%);
+    margin: 0;
+    padding: 20px;
+    width: 900px;
+    color: white;
+    background-color: #8e0001;
+    opacity: .8;
+    font-family: "Poiret One", sans-serif;
+    font-size: 2rem;
+    text-align: center;
 }
 
 .header {
@@ -14,10 +141,10 @@ body {
 
 .navbar {
     position: fixed;
-    background-color: #271b20;
-    opacity: .8;
+    background-color: rgba(39, 27, 32, 0.8);
     top: 0;
     width: 100%;
+    z-index: 1000;
 }
 
 .navbar ul {
@@ -40,6 +167,10 @@ body {
     padding: 25px 20px;
     font-size: 3rem;
     text-align: center;
+}
+
+.container {
+    padding: 20px;
 }
 
 h1 {
