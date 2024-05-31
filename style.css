@@ -295,3 +295,67 @@ h1 {
     display: flex;
     justify-content: center;
 }
+
+/* mobile screen */
+@media screen and (max-width: 600px) {
+    .navbar a {
+        font-size: 1.5rem;
+        padding: 10px 5px;
+    }
+
+    .hero-container .red-square,
+    .hero-container-two .red-square,
+    .hero-container-three .red-square {
+        height: 10px;
+        width: 261px;
+        font-size: .6rem;
+        padding: 10px;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+
+    .hero-container .menu,
+    .hero-container-two .menu,
+    .hero-container-three .menu {
+        width: 260px;
+        padding: 1px;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+
+    .hero-container .red-square-two,
+    .hero-container-two .red-square-two,
+    .hero-container-three .red-square-two {
+        display: none;
+    }
+
+    .menu .item {
+        display: flex;
+        justify-content: space-between;
+
+    }
+
+    .flavor {
+        text-align: left;
+    }
+
+    .price {
+        text-align: right;
+    }
+
+    .item p {
+        font-size: .6rem;
+        margin: 5px 0;
+    }
+
+    .contact-one,
+    .contact-two {
+        width: auto;
+    }
+
+    .hero-container h1,
+    .hero-container-two h1,
+    .hero-container-three h1 {
+        font-size: 3rem;
+    }
+}
